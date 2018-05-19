@@ -5,7 +5,7 @@ body{
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.9;
   /* text-align: center; */
   margin: 0;
   padding: 0;
@@ -14,6 +14,7 @@ body{
 /* header */
 
 header{
+z-index: 1;
 height: 69px;
 width: 100%;
 border-bottom: 1px solid seashell;
@@ -37,4 +38,43 @@ nav span{
 display: inline-block;
 text-decoration: underline;
 margin: 0 10px;
+}
+
+.content{
+   margin: 0 auto; /*centralize the content horizontally */
+  width: 1200px;
+  display: flex;
+}
+
+/* big tea image */
+
+.img-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.big-tea-img .img-content{
+  position: relative;
+  top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  /* display: flex; */
+}
+
+h2.text{
+width: 100%;
+background-color: black;
+display: inline-block;
+margin: 0 auto;
+padding: 10px 10px;
+}
+
+h4.text{
+width: 100%;
+background-color: black;
+margin: 0 auto;
+padding: 10px 10px;
 }
