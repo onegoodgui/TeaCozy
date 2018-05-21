@@ -5,15 +5,23 @@ body{
   font-size: 22px;
   color: seashell;
   background-color: black;
+  text-align: center;
   opacity: 0.9;
   /* text-align: center; */
   margin: 0;
   padding: 0;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
+h2, h3, h4{
+  margin: 0;
+  padding: 10px;
+}
 /* header */
 
+p{
+  display: block;
+}
 header{
 z-index: 1;
 height: 69px;
@@ -164,3 +172,39 @@ padding: 10px 0 50px 0;
   margin: 0 0;
 }
 /* Tea of the Month  */
+
+/* Locations */
+/* .content #locations-content{
+  width: inherit;
+  height: 500px;
+} */
+.content .locations{
+  justify-content: flex-start;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding-top: 70px;
+}
+.locations-pic.img-content{
+
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.text-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px 10px;
+}
+/* h2.locations{
+  width: auto;
+  height: 10px;
+  padding: 15px 15px;
+} */
